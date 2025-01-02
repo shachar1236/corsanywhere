@@ -15,7 +15,7 @@ import (
 
 var (
 	flags = flag.NewFlagSet("corsanywhere", flag.ExitOnError)
-	fPort = flags.String("port", "8080", "Local port to listen for this corsanywhere service")
+	fPort = flags.String("port", "80", "Local port to listen for this corsanywhere service")
 )
 
 func main() {
